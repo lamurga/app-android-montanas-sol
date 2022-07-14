@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "100717754242",
+    "firebase_url": "https://montanasdelsol-f6d1b-default-rtdb.firebaseio.com",
+    "project_id": "montanasdelsol-f6d1b",
+    "storage_bucket": "montanasdelsol-f6d1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100717754242:android:15ad9da1a30fce8875419b",
+        "android_client_info": {
+          "package_name": "com.example.montanasdelsol_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100717754242-4rhhumuseb1pgbvrclufv6d2ui9kdgri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.montanasdelsol_firebase",
+            "certificate_hash": "9e74a48b89e1f0c91358a578b3eba08011fabbfa"
+          }
+        },
+        {
+          "client_id": "100717754242-38qauqfki1gcqcb8ruk17da2tnk72s5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgzUmLlVgT0OQmWdkIq3yC_dxJpffzMh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100717754242-38qauqfki1gcqcb8ruk17da2tnk72s5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
