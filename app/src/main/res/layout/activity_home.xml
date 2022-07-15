@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
 
     <FrameLayout
         android:id="@+id/contenedor"
@@ -14,27 +24,33 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="100dp"
-            android:orientation="horizontal">
+            android:layout_height="360dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="373dp"
-                android:layout_weight="1"
-                android:contentDescription="TODO"
+                android:layout_marginTop="0dp"
                 app:srcCompat="@drawable/portada2" />
         </LinearLayout>
+
+
 
         <com.google.android.material.tabs.TabLayout
             android:layout_width="match_parent"
             android:layout_height="65dp"
-            android:layout_marginTop="370dp">
+            android:layout_marginTop="360dp">
 
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
@@ -52,6 +68,22 @@
                 android:text="Mas Info" />
         </com.google.android.material.tabs.TabLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="440dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginVertical="5dp"
+                android:text="Los productos Montañas del Sol, son elaborados a base de cacao criollo fino de aroma, producido por pequeños agricultores que cuidan el medio ambiente en altitudes mayores a 700 msnm de la selva alta amazónica (Satipo, VRAEM-Perú), esto le otorga sabores únicos con notas frutales cítricas y frutos secos, que al consumirlo le darán gran placer y conexión con la Madre naturaleza." />
+        </LinearLayout>
 
     </FrameLayout>
 
@@ -65,5 +97,5 @@
         app:menu="@menu/menu_principal" >
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
-
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/icono_1.xml" value="0.1965" />
         <entry key="app/src/main/res/drawable/icono_2.xml" value="0.1965" />
         <entry key="app/src/main/res/drawable/icono_3.xml" value="0.1965" />
@@ -11,15 +12,18 @@
         <entry key="app/src/main/res/drawable/icono_6.xml" value="0.1965" />
         <entry key="app/src/main/res/drawable/icono_7.xml" value="0.1965" />
         <entry key="app/src/main/res/layout/activity_auth.xml" value="0.28229166666666666" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.296398891966759" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19904076738609114" />
+        <entry key="app/src/main/res/layout/activity_map.xml" value="0.19479166666666667" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_web_view.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/content_auth.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/content_search.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/layout/fila.xml" value="0.1945288753799392" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/notificacion.xml" value="0.1896551724137931" />
         <entry key="app/src/main/res/menu/menu_principal.xml" value="0.28229166666666666" />
       </map>
     </option>

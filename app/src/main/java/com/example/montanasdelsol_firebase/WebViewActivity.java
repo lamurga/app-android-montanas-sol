@@ -6,18 +6,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.webkit.WebView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
-public class HomeActivity extends AppCompatActivity {
+public class WebViewActivity extends AppCompatActivity {
 
     BottomNavigationView bNavigation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_web_view);
+
+        WebView myWebView = (WebView) findViewById(R.id.webView1);
+        myWebView.loadUrl("https://quierochocolate.com/blog/");
         setup();
     }
 
@@ -26,26 +30,25 @@ public class HomeActivity extends AppCompatActivity {
         bNavigation.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                if (item.getItemId() == R.id.menu_2){
-                    Intent intent = new Intent(HomeActivity.this,SearchActivity.class);
+                if (item.getItemId() == R.id.menu_1){
+                    Intent intent = new Intent(WebViewActivity.this,HomeActivity.class);
                     startActivity(intent);
                     item.setChecked(true);
-                    return true;
+                }
+                if (item.getItemId() == R.id.menu_2){
+                    Intent intent = new Intent(WebViewActivity.this,SearchActivity.class);
+                    startActivity(intent);
+                    item.setChecked(true);
                 }
                 if (item.getItemId() == R.id.menu_4){
-                    Intent intent = new Intent(HomeActivity.this,MapActivity.class);
+                    Intent intent = new Intent(WebViewActivity.this,MapActivity.class);
                     startActivity(intent);
                     item.setChecked(true);
-                    return true;
-                }
-                if (item.getItemId() == R.id.menu_5){
-                    Intent intent = new Intent(HomeActivity.this,WebViewActivity.class);
-                    startActivity(intent);
-                    item.setChecked(true);
-                    return true;
                 }
                 return false;
             }
         });
     }
+
+
 }
